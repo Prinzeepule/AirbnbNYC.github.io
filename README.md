@@ -11,5 +11,13 @@ How does the average price of an Airbnb listing, per month, compare to the priva
 How many adverts are for private rooms?
 How do Airbnb listing prices compare across the five NYC boroughs?
 
-
 TOOL USED - Microsoft PowerBi
+
+Data Preparation
+In PowerBi Transforms the datasets was checked for duplicates and nulls.
+In the price dataset the price column was split to interger part and the “dollar” text part. The dollar text column was deleted and $ added to the new-price column while deleting the old column (column with int and text together).
+Also in the “nbhood_full” column, the cities (Borough) was extracted to a standalone column named neighbourhood.
+After ensuring the data is clean, the analysis of the data is done.
+
+Analysis
+Check the uploaded file for the datasets and analysis on the dashboard.
